@@ -24,18 +24,18 @@ def draw():
             text("W", width/2-15, height/2)
             
                        ####
-    if keyPressed:
-        key == "w"
+
         if key == "w":
             fill(0, 255, 0, 1000)
             text("W", width/2-15, height/2)
             
             
                       ####
-    x = (mouseX, mouseY)
-    if x == hex(FF009696): ## Nie wiem naprawde jak rozwiązac ten problem z najechaniem myszki
-        fill(25, 25, 25, 500) ## w pliku lekcyjnym nie ma zadnych wskazówek :(
-        text("J", width/2-50, height/2) ## Trzeba skasowac te 4 linijki aby program zadziałał
+    x = hex(get(mouseX, mouseY)) # funkcja get pobiera kolor z pozycji myszy, pozycji samej w sobie nie można porównać z kolorem, bo to dwie różne rzeczy; przykład był w pliku ode mnie i można sprawdzić działanie tej funkcji rónież w referencjach
+    if x == 'FF009696': # ten kolor wystąpi w okie programu dopiero po kliknięciu, należałobyb wyświetlać w jakimś defaultowym
+        #J i W mają te same kolory, więc albo tzebaby je rozróżnić, albodadać dodatkowy warunek pozycji myszy, by wychwycić kliknięcia na samo J
+        fill(250, 250, 25)
+        text("J", width/2-50, height/2)
 
                       #### 
                                    
@@ -58,4 +58,5 @@ def draw():
     if keyPressed:
         if key == "x":
             exit()
-        
+    
+#1,5pkt
