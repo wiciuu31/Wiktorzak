@@ -22,9 +22,8 @@ class kolorowyKwadrat(Kwadrat):
     def show(self):
         Kwadrat.sketch(self, x, y)
     def sketchKolorowy(self, x, y,):
-        Kwadrat.sketch(self, x, y)
-        fill(random(255),100,111)
-            
+        fill(random(255),100,111) # to ma tą wadę, że teraz wszystkie rysowane obiekty po kolorowym kwadracie też będą w jego kolorze
+        Kwadrat.sketch(self, x, y)   # trzeba było zmienić kolejność, aby zadziałąło już na obecnie rysowanym kwadracie
             
             ###
             
@@ -54,3 +53,5 @@ def setup():
     duzyPasiastyKwadrat  = PasiastyKwadrat(120.0)
     duzyPasiastyKwadrat.sketchPasiasty(random(300), 50, 12)
     duzyPasiastyKwadrat.sketch(random(350), 300) # na obiekcie typu klasy pochodnej można wywołać metodę klasy bazowej ( rysujemy kwadrat bez pasków )
+    
+# 1,75pkt
