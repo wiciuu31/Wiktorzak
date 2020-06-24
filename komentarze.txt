@@ -1,0 +1,144 @@
+Warsztat samochodowy.
+Klient: mam problem ze zmianą biegów, wydają dźwięk zgrzytania podczas zmiany.
+Mechanik: może to być problem z samoregulatorem naciągu linki przy pedale sprzęgła lub zużyte są synchronizatory skrzyni biegów. Służą one do wyrównywania prędkości obrotowej kół zębatych. Fasada 
+
+Spotkanie w biurze. 
+Prezes1 firmy, mówi w jednym języku :Obawiam się, że nie dojdziemy do porozumienia.
+Prezes2 firmy, mówi w drugim języku:Tak, mam wrażenie, że się nie dogadamy.
+Tłumacz:Proszę chwilę poczekać, myślę, że żadna ze stron nie zrozumiała drugiej. Zamierzam sprostować nieporozumienie. Adapter 
+
+Warsztat samochodowy
+Klient mówi do mechanika: Coś mi stuka w zawieszeniu, chciałem to naprawić
+Mechanik: Ok, zajmiemy się tym. Po czym naprawia zawieszenie, ale podczas tej roboty znalazł jeszcze problemy w układzie hamulcowym, silniku i wyważył koła.Szablon? Fasada?
+Fasada 
+Stacja Meteorologiczna 
+Meteorolog synoptyk:Dzięki notatką naukowym przepowiedzieliśmy,że 
+dzisiejszej nocy będziemy mogli zaobserwować deszcz meteorytów
+Meteorolog: przygotuje prognozę pogody Obserwator 
+
+Szkoła nauki śpiewu
+Uczeń: Mój głos nie pasuje do muzyki.
+Nauczyciel śpiewu: Musisz zaśpiewać to w innej gamie. Adapter 
+
+pizzeria
+kelner: Jaką pizzę podać?
+klient: Margarite.
+kelner: To wszystko?
+klient: Jednak nie. Margharite z salami.
+kelner: Jakiś sos do tego?
+klient: Margharite z salami, oliwkami i sos czosnkowy.  Dekorator
+
+Sklep internetowy z grami (Playstation Store) 
+Gracz patrząc na nowości, chce nabyć grę firmy Naughty Dog "The Last of Us 2". Przed zakupem
+pełnej wersji gry, pobiera darmową wersję demonstracyjną, aby upewnić się definitywnie, że ją chce. Visitor? Pełnomocnik 
+
+
+Mieszkanie.
+Człowiek: posiada aparat który wykorzystuje do hobbystycznego robienia zdjęć. 
+Aparat nie posiada mikrofonu ani funkcji nagrywania wideo lecz posiadacz chce go
+wykorzystać przy streamowaniu na platformach takich jak Twitch.tv. 
+Człowiek: Podłącza aparat do komputera i przy pomocy oprogramowania umożliwia funkcję nagrywania.Adapter 
+
+Studio grafiki:
+Klient: Wygląda dobrze, ale lepiej byłoby, gdyby postać w tle była wyraźniejsza, a kolory delikatniejsze. Można też lepiej zgrać tło.
+Grafik: Dobrze, w takim razie zwiększymy krycie do 76,5%, lekko zmniejszamy nasycenie barw  i dodamy gradient. To sprawi, że postać będzie wyraźniejsza, a kolory tła lepiej się ze sobą zgrają. Fasada
+
+Sklep 'Media Expert'
+Klient dzwoni do sklepu i składa zamówienie. 
+Klient: poproszę dodać do mojej listy zamówień konsolę do gier.
+Operator w call center: towar zostanie dodany do Pana koszyka, dziękuje Panu za zamówienie.
+Operator wysyła zlecenie do działu zajmującego się obsługą klientów, po czym informacja przechodzi do magazynu sklepowego, gdzie towar zostanie przekazany kurierowi. Szablon
+ 
+Rosjanin: Çäđŕâńňâóéňĺ, î÷ĺíü đŕä ń âŕěč ďîçíŕęîěčňüń˙
+Polak: Przepraszam, ale nie mogę zrozumieć o czym pan mówi.
+Ukrainiec: Szanowne panstwo jestem w stanie zrobić tak, żebyście zrozumieli o czym gada inny, bo jestem poliglotą. Adapter 
+
+studio gamedev 
+Grafik tworzy nowe assety do tworzonej przez firmę gry.
+Dyrektor każe zmienić styl grafik, do czego potrzebne są nowe wtyczki lub oprogramowanie
+Grafik pobiera wtyczki do programu w którym pracuje i może kontynuować swoją pracę. Obserwator?
+
+Restauracja oferuje w swoim menu dania na wagę. Klient sam komponuje swoje danie z różnych kompozytów, 
+po czym płaci za danie w zależności od jego wagi (cena wynosi określoną cenę bazową i rośnie za każde 50g dania). 
+Restauracja nie wypisuje jednak w swoim menu oddzielnych pozycji do każdej wagi dania, ponieważ pozycji mogłoby wyjść nieskończoność,
+a to byłoby bardzo niekorzystne dla budżetu. W zamian restauracja wypisała na tablicy informację, że każde danie kosztuje określoną cenę bazową plus dodatkową opłatę za każde 50g dania,
+co ostatecznie ograniczyło menu do jednej informacji, a nie absurdalnej ilości wymienionych pozycji. Pełnomocnik 
+
+Restauracja oferuje w swoim menu kuchnię azjatycką - min. Chin, Korei i Indii. Jest to
+bardzo dobra restauracja, której zależy na nieposzlakowanej opinii i dużej liczbie
+zadowolonych klientów, więc zatrudnia po jednym kucharzu specjalizującym się w danej
+kuchni. Tak więc jeden kucharz gotuje wszystkie dania tylko kuchni chińskiej z menu, drugi
+kucharz gotuje wszystkie dania tylko kuchni koreańskiej z menu, a trzeci kucharz gotuje
+wszystkie dania tylko kuchni indyjskiej z menu. Singleton
+
+Sklep budowlany (Asortyment: deski, farby do drewna, gwoździe, lina)
+Jan Kowalski :  Kupię deski, farbę do drewna, gwoździe i zrobię płot na swojej działce.
+Karol Nowak: Kupię deski, farbę i linę i zrobię mojemu dziecku huśtawkę. Odwiedzający 
+
+Student gra na minikeyboardzie, lecz po chwili stwierdza, że chciałby go użyć
+w programie do tworzenia muzyki
+Po podłączeniu urządzenia do komputera, każdy przycisk staje się kompletnie programowalny,
+co pozwala na większą swobodę w obsłudze programu.  Adapter 
+
+Studio projektujące gry komputerowe 
+Game designer do zespołu: Potrzebujemy przedmioty, które będę utrudniały 
+ukończenie gry.
+Programista: Do zrobienia jest obiekt, który będzie posiadał 
+kolizję z graczem oraz skrypt posiadający dostęp 
+do komponentu przetrzymującego życie gracza.Fasada
+
+Drogeria, klientka wchodzi do sklepu.
+Klientka: Dzień Dobry, chciałabym sprawdzić wszystkie perfumy jakie macie, mogę otworzyć po jednym pudełku?
+Ekspedientka: Niestety, nie może Pani otworzyć zapachów, ale może Pani skorzystać
+z testerów, czyli rozcieńczonych próbek, które reprezentują prawdziwe zapachy, jakie mamy w naszej ofercie.
+Dopiero po zakupie będzie Pani mogła otworzyć pudełko.
+Klientka: Dobrze, w takim razie poproszę te testery.  Singleton 
+
+
+Mężczyzna: Dzień dobry u mnie problemy z dostawą towaru. 
+Służba wsparcia : Dzień dobry podajcie numer zamówienia, które zamówiliście, i popatrzymy w czym sprawę. 
+Mężczyzna: Dobrze, oto kod PL97767667 
+Służba wsparcia : Wasz towar czeka na wysyłkę, są możliwe opóźnienia przez pandemię, czekajcie. Szablon
+
+Stadion Koszykówki
+Kibic: Ładne podanie
+Gracz: To był alley oop nie słyszałeś o nim? Każdy kibic powinien znać to zagranie.
+Kibic: Jestem początkującym kibicem, dość niedawno zacząłem się interesować koszykówką. Fasada 
+
+Szpital
+Pielęgniarka: Przybyła do nas ofiara wypadku samochodowego.
+Lekarz oddziałowy: Jak parametry? 
+Pielęgniarka: W normie
+Lekarz: Proszę podać sześć miligramów morfiny. Obserwator 
+
+Kancelaria prawna.
+Poszkodowany: Potrzebuje pomocy, rzekomo wyprzedzałem ciężarówke na pasach i dostałem mandat, chociaż tego nie zrobiłem.
+Prawnik: Art. 26. 3. Kierującemu pojazdem zabrania się wyprzedzania pojazdu na przejściu dla pieszych i bezpośrednio przed nim, z wyjątkiem przejścia, na którym ruch jest kierowany, potrzebnę będą nagrania z wideo rejestratora. Fasada 
+
+Supermarket ()
+*Pierwszy klient odwiedzający sklep : Kupuje kilka przedmiotów z oferty sklepowej.
+Stawia na zdrową żywność, wybiera produkty z gamy zdrowie.
+*Drugi klient odwiedzający sklep : Kupuje produkty z oferty sklepowej.
+Zależy mu na czasie, sięga po produkty z działu FastFood.  Odwiedzający 
+
+Montażysta 
+Klient chce zmontować film i ogląda efekt końcowy: Flimik bardzo mi się podoba,
+ jednak niektóre fragmenty wydają mi się za ciemne, i można by dodać jakieś  udziwnienia żeby był ciekawy dla każdej grupy wiekowej.
+Montażysta: Pewnie mogę dodać np.animacje rysunkową, podwyższyć kontrast i wygładzić przejścia między poszczególnymi klatkami projektu. 
+Poprawie również przezroczystość dodanych elementów aby bardziej współgrały z tłem. Fasada 
+
+Wpis do Centralnej Ewidencji i informacji o Działalności Gospodarczej (CEIDG).
+Petent: Chciałbym założyć działalność gospodarczą i dokonać wpisu do CEIDG. Mam przygotowany wniosek roboczy. 
+Urzędnik: Poproszę dowód osobisty i wspomniany wniosek roboczy.
+Dokonam wpis po kodzie wniosku. Dokonanie wpisu jest wolne od opłat.
+Petent: Czy samodzielnie będę mógł wydrukować swój wpis do CEIDG.
+Urzędnik: Przedsiębiorca może odnaleźć swój wpis w CEIDG na podstawie numeru NIP i wydrukować go.Fasada? szablon ?
+
+Gabinet dentystyczny.
+Pacjent, który siedzi na fotelu: Boję się zabiegu, ale wiem że muszę pozbyć się zęba, proszę zrobić to tak żeby nie bolało...
+Dentysta (do pacjenta): To potrwa tylko chwilę. Czy może pan otworzyć szeroko usta?
+Dentysta (do asystentki): Pani Kasiu dziś będziemy przerywać włókna ozębnej łączące korzeń zęba z kością zębodołu. Robimy znieczulenie nasiękowe, proszę o podanie strzykawki z lidokainą. Fasada? Adapter?
+
+Hotel
+Recepcjonistka: Proszę o podanie danych osobistych, abym mogła państwa zarejestrować w systemie.
+Recepcjonista: Czy mogę prosić o listę osób, która przybędzie? Proszę dodatkowo o podanie podstawowych danych. Odwiedzający? Szablon ?
