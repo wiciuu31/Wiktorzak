@@ -66,4 +66,7 @@ def mouseClicked():
    
         if isinstance(pet, sonia): # te które są charakterystyczne dla danego typu obiektu, musimy ująć w warunek, bo na niewłaściwym typie wywaliłoby błąd
             pet.gimmePaw()
+            
+# brakuje nadpisania odejmowania
+#1,25pkt
       
