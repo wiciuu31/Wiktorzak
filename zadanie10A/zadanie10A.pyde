@@ -68,7 +68,7 @@ def setup():
     library = Library(books) # bo biblioteka bez książek, to nie biblioteka
     Madzia = Customer()
            #
-    Jakub = nowy()
+    Jakub = Customer()
            #
         
 def draw():
@@ -83,47 +83,41 @@ def draw():
 def mouseClicked(): # poklikajcie kilkakrotnie w przyciski: wypożyczneie dwa razy tej samej książki, próba zwrócenia bez posiadania żadnej? Kto podejmuje działanie? 
     if mouseX >100 and mouseX<200:
         if mouseY >10 and mouseY <30:
+            library.lendBook(Jakub.requestBook("The 100"))
             library.lendBook(Madzia.requestBook("Naocznosc")) # cała interakcja między biblioteką a klientem łączy się dopiero tutaj, obiekty są oddzielne i każdy ma swoją odpowiedzialność: biblioteka za przechowywane książki, klient za wypożyczoną i to tej odpowiedzialności dotyczą metody, nie używają wzajemnie swoich pól, jest porządek
         if mouseY >40 and mouseY <60:
-            library.addBook(Madzia.returnBook())
-            
-          ######  
-          
-def mouseClicked(): # poklikajcie kilkakrotnie w przyciski: wypożyczneie dwa razy tej samej książki, próba zwrócenia bez posiadania żadnej? Kto podejmuje działanie? 
-    if mouseX >100 and mouseX<200:
-        if mouseY >10 and mouseY <30:
-            library.lendBook(Jakub.requestBook("The 100")) # cała interakcja między biblioteką a klientem łączy się dopiero tutaj, obiekty są oddzielne i każdy ma swoją odpowiedzialność: biblioteka za przechowywane książki, klient za wypożyczoną i to tej odpowiedzialności dotyczą metody, nie używają wzajemnie swoich pól, jest porządek
-        if mouseY >40 and mouseY <60:
             library.addBook(Jakub.returnBook())
-            
-            #####
-            
+            library.addBook(Madzia.returnBook())
+
             ##VVVV ZADANIE10 VVVV##
             
             
-class test(unittest.test):
-    
-    def OBIEKT(self):
-        self.Jakub = Customer()
-        books = ["Sens Sztuki","Naocznosc",  "Harry Potter","The 100"]
-        self.library = Library(books) 
+class moje_testy(unittest.TestCase):
         
     def test_wypo_ks(self):
-    
-        self.library.lendBook(self.Jakub.requestBook("The 100"))
-        self.assertEqual(["Sens Sztuki","Naocznosc","Harry Potter"], self.library.availableBooks)   
-        self.assertEqual(self.Jakub.book, "The 100") #Przypisanie do obiektu Jakub
-        self.assertTrue(self.Jakub.haveBook)         #
+        Jakub = Customer() # twsty powinny być niezaleźne od siebie, każdy powinien definiować obiekty klas które testuje na nowo
+        books = ["Sens Sztuki","Naocznosc",  "Harry Potter","The 100"]
+        library = Library(books)
+        library.lendBook(Jakub.requestBook("The 100"))
+        self.assertEqual(["Sens Sztuki","Naocznosc","Harry Potter"], library.availableBooks)   
+        self.assertEqual(Jakub.book, "The 100")
+        self.assertTrue(Jakub.haveBook) #self dotyczy klasy włąsnej, tu nadpisujesz klasę testów, do niej należą asercje i przy nich należy używać self, biblioteka i klient to inne klasy, wykorzystujesz je, ale nie pochodzą z klasy testów i nie można przy nich użyć self wskzującego na obecną klasę w której się znajduje m.in. ta linijka
         
                #####  <> #####
                    
     def test_ZWRT_KS(self):
-    
-        self.Jakub.haveBook=True
-        self.Jakub.book = "dodatkowaks"
-        self.library.addBook(self.Jakub.returnBook())
-        self.assertFalse(self.Jakub.haveBook)
-        self.assertEqual(["Sens Sztuki","Naocznosc",  "Harry Potter", "The 100", "dodatkowaks"], self.library.availableBooks)
         
+        Jakub = Customer()
+        books = ["Sens Sztuki","Naocznosc",  "Harry Potter","The 100"]
+        library = Library(books)
+        Jakub.haveBook=True
+        Jakub.book = "dodatkowaks"
+        library.addBook(Jakub.returnBook())
+        self.assertFalse(Jakub.haveBook)
+        self.assertEqual(["Sens Sztuki","Naocznosc",  "Harry Potter", "The 100", "dodatkowaks"], library.availableBooks)
         
+if __name__ == '__main__':
+    unittest.main()
                    #######
+                   
+#1pkt
