@@ -9,3 +9,5 @@ Zale¿y mu na czasie, siêga po produkty z dzia³u FastFood.
 WZORZEC: Odwiedzaj¹cy
 DLACZEGO:Ka¿dy odwiedzaj¹cy musi mieæ dostêp do sk³adowych elementu co oznacza, ¿e ka¿dy element musi mieæ publiczny dostêp do u¿ywanych sk³adowych obiektu.
 Z tej samej bazy danych ka¿dy klient ma mozliwosc wybrania  róznego "dzia³ania". 
+
+#2pkt
