@@ -2,46 +2,25 @@
 def setup():
 
     global img
-
-    size(1200/2, 1600/2) 
-
-
-    
-
+    size(1200/2, 1600/2)
+    noFill()
+    strokeWeight(10)
 
 def draw():
  
-
     global img
-    img = loadImage("legirt.jpg")
-
-
-    image(img, 50,100, 500,500) 
-
-
-
-
-
-               ####
+    img = loadImage("legirta.jpg")
+    
+           ####
     try:
- 
-        f= open("legirt.jpg")
-        if f.name == "legirt.jpg":
-            raise Exception
-
-               
-    except FileNotFoundError as e:
-        print(e)
-    except Exception as e:
+        image(img, 50,100, 500,500)
+    except:
         print ("Błąd! zla_nazwa")
-        print rect(50,100,500,500)
-        fill (255,0,0,90)
-        
+        stroke (255,0,0,90)
     else:
-    
-    
-        print rect(50,100,500,500)
-        fill (0,0,255,0)
         stroke(0,0,255)
     finally:
+        rect(50,100,500,500)
         print("zakonczono")
+        
+# 1pkt
